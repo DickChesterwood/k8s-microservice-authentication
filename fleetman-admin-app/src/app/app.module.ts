@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TrucksComponent } from './trucks/trucks.component';
-import { TokenComponent } from './token/token.component';
+import { UserComponent } from './user/user.component';
 
 // From Auth0 authentication provider
 import { AuthModule } from '@auth0/auth0-angular';
@@ -14,7 +14,7 @@ import { AuthButtonComponent } from './auth-button/auth-button.component';
   declarations: [
     AppComponent,
     TrucksComponent,
-    TokenComponent,
+    UserComponent,
     AuthButtonComponent
   ],
   imports: [
