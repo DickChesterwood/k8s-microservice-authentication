@@ -16,8 +16,11 @@ export class TrucksComponent implements OnInit {
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
-    // Call the API Gateway - need a token though but!
-    this.http.get<string>("http://localhost:8080/vehicles").subscribe((data: string) => this.trucks = data);
+  }
+
+  populateTrucks() {
+    // Call the API Gateway - need a token - but this will be added automatically.
+    this.http.get<string>("http://localhost:8080/vehicles").subscribe((data: string) => this.trucks = data);    
   }
 
 }
