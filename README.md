@@ -1,3 +1,3 @@
-Two additional images intended for use on the Kubernetes and Istio courses. I'm aiming to explain authentication and authorization with none of the usual waffle. I WILL fail.
+This repo was used to develop an authentication module for the k8s course. I don't know what happened but the project stalled.
 
-Course videos will be added by early March 2022 and TODO I will update this readme with the location of any free previews.
+I'm trying again under the k8s-fleetman-authentication-edition repo, check there. This repo will be marked as read only in case anything useful can be rescued from here. We will delete later.
